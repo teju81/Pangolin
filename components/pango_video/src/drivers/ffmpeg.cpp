@@ -48,6 +48,7 @@ extern "C"
 
 // Found https://github.com/leandromoreira/ffmpeg-libav-tutorial
 // Best reference I've seen for ffmpeg api
+#define CODEC_FLAG_GLOBAL_HEADER AV_CODEC_FLAG_GLOBAL_HEADER
 
 namespace pangolin
 {
